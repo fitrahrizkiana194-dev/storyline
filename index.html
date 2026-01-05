@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Storyline — Undangan Digital Elegan</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-color" content="#fff">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">storyline</a>
+      <nav class="nav" aria-label="Main Navigation">
+        <a href="#katalog">Katalog</a>
+        <a href="#fitur">Fitur</a>
+        <a href="#harga">Paket</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-label="Buka menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1 class="reveal">Abadikan Momen Spesial Anda dalam Sentuhan Digital yang Elegan.</h1>
+          <p class="sub reveal delay">Solusi undangan pernikahan, pertunangan, dan acara spesial lainnya yang praktis, ramah lingkungan, dan dapat diakses kapan saja.</p>
+          <div class="cta reveal delay-2">
+            <a class="btn btn-primary" href="#katalog">Lihat Katalog Desain</a>
+            <button id="wa-consult" class="btn btn-ghost">Konsultasi via WhatsApp</button>
+          </div>
+
+          <div class="hero-controls reveal delay-3">
+            <button id="music-toggle" class="icon-btn" aria-pressed="false" title="Putar / Hentikan musik">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M7 6v12l10-6L7 6z" fill="currentColor"/></svg>
+              <span>Musik</span>
+            </button>
+            <div class="micro">Waktu pengerjaan: <strong>1x24 jam</strong></div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="card-preview" aria-hidden="true">
+            <img src="assets/preview-1.jpg" alt="Preview desain undangan" />
+            <div class="card-meta">
+              <span class="tag">Tema: Elegant-01</span>
+              <span class="tag">Best Seller</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FITUR -->
+    <section id="fitur" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Kenapa memilih layanan kami?</h2>
+        <p class="section-lead reveal delay">Fitur lengkap untuk memudahkan Anda — estetika bertemu fungsionalitas.</p>
+
+        <div class="features-grid">
+          <article class="feature card reveal">
+            <h3>Desain Premium & Eksklusif</h3>
+            <p>Pilihan tema modern, dikurasi, dan dapat disesuaikan dengan karakter acara.</p>
+          </article>
+
+          <article class="feature card reveal delay-1">
+            <h3>RSVP Real-Time</h3>
+            <p>Daftar tamu otomatis dan mudah diunduh untuk keperluan tamu undangan.</p>
+          </article>
+
+          <article class="feature card reveal delay-2">
+            <h3>Navigasi Google Maps</h3>
+            <p>Integrasi link lokasi otomatis sehingga tamu tidak tersesat.</p>
+          </article>
+
+          <article class="feature card reveal delay-3">
+            <h3>Background Music</h3>
+            <p>Kontrol musik yang halus untuk meningkatkan suasana saat membuka undangan.</p>
+          </article>
+
+          <article class="feature card reveal delay-4">
+            <h3>Galeri Foto & Video</h3>
+            <p>Carousel responsif untuk menampilkan momen pre-wedding Anda.</p>
+          </article>
+
+          <article class="feature card reveal delay-5">
+            <h3>Buku Tamu Digital</h3>
+            <p>Terima ucapan doa & harapan secara langsung dengan notifikasi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALUR PEMESANAN -->
+    <section id="alur" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Alur Pemesanan (Terhubung ke WhatsApp)</h2>
+        <ol class="flow reveal delay">
+          <li><strong>Pilih Desain:</strong> Telusuri katalog dan pilih tema.</li>
+          <li><strong>Isi Data:</strong> Formulir singkat (nama, waktu, lokasi, foto).</li>
+          <li><strong>Konfirmasi & Pembayaran:</strong> Klik "Pesan Sekarang" diarahkan ke WhatsApp admin.</li>
+          <li><strong>Proses Pengerjaan:</strong> Tim memproses dalam 1x24 jam.</li>
+          <li><strong>Undangan Siap Sebar:</strong> Anda menerima link unik untuk dibagikan.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- KATALOG (tombol preview gallery sederhana) -->
+    <section id="katalog" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Katalog Desain</h2>
+        <p class="section-lead reveal delay">Klik preview untuk melihat contoh tema. Gunakan Kode Desain ketika memesan.</p>
+
+        <div class="catalog-grid reveal delay-2">
+          <div class="catalog-card" data-code="Elegant-01">
+            <img src="assets/preview-1.jpg" alt="Elegant-01" />
+            <div class="catalog-info">
+              <strong>Elegant-01</strong>
+              <button class="btn btn-sm order-btn" data-package="Gold" data-theme="Elegant-01">Pilih & Pesan</button>
+            </div>
+          </div>
+
+          <div class="catalog-card" data-code="Minimal-02">
+            <img src="assets/preview-2.jpg" alt="Minimal-02" />
+            <div class="catalog-info">
+              <strong>Minimal-02</strong>
+              <button class="btn btn-sm order-btn" data-package="Silver" data-theme="Minimal-02">Pilih & Pesan</button>
+            </div>
+          </div>
+
+          <div class="catalog-card" data-code="Classic-03">
+            <img src="assets/preview-3.jpg" alt="Classic-03" />
+            <div class="catalog-info">
+              <strong>Classic-03</strong>
+              <button class="btn btn-sm order-btn" data-package="Platinum" data-theme="Classic-03">Pilih & Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="harga" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Paket Harga</h2>
+
+        <div class="pricing-grid reveal delay-1">
+          <div class="pricing-card">
+            <h3>Silver</h3>
+            <p class="price">Rp 99.000</p>
+            <ul>
+              <li>3 Bulan aktif</li>
+              <li>Galeri: Max 5 Foto</li>
+              <li>Musik: Standar</li>
+            </ul>
+            <button class="btn btn-primary order-btn" data-package="Silver">Pesan Sekarang</button>
+          </div>
+
+          <div class="pricing-card popular">
+            <div class="ribbon">Best Seller</div>
+            <h3>Gold</h3>
+            <p class="price">Rp 149.000</p>
+            <ul>
+              <li>6 Bulan aktif</li>
+              <li>Galeri: Max 15 Foto</li>
+              <li>Musik: Custom</li>
+            </ul>
+            <button class="btn btn-primary order-btn" data-package="Gold">Pesan Sekarang</button>
+          </div>
+
+          <div class="pricing-card">
+            <h3>Platinum</h3>
+            <p class="price">Rp 199.000</p>
+            <ul>
+              <li>1 Tahun aktif</li>
+              <li>Galeri: Unlimited</li>
+              <li>Musik + Video</li>
+            </ul>
+            <button class="btn btn-primary order-btn" data-package="Platinum">Pesan Sekarang</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY CAROUSEL demo -->
+    <section id="gallery" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Contoh Galeri</h2>
+        <div class="carousel reveal delay">
+          <button class="carousel-btn prev" aria-label="Sebelumnya">&lsaquo;</button>
+          <div class="carousel-track">
+            <figure class="carousel-item"><img src="assets/gallery-1.jpg" alt="Galeri 1"></figure>
+            <figure class="carousel-item"><img src="assets/gallery-2.jpg" alt="Galeri 2"></figure>
+            <figure class="carousel-item"><img src="assets/gallery-3.jpg" alt="Galeri 3"></figure>
+          </div>
+          <button class="carousel-btn next" aria-label="Berikutnya">&rsaquo;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTOH PESAN -->
+    <section id="kontak" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Contoh Format Pesan Otomatis ke WhatsApp</h2>
+        <pre class="message reveal delay-1">
+Halo Admin storyline, saya tertarik untuk memesan Undangan Digital.
+Detail Pesanan:
+Paket: [Nama Paket]
+Kode Desain: [Nama/Kode Tema]
+Nama Pemesan: [Nama User]
+Mohon informasi langkah selanjutnya untuk pengiriman data dan pembayaran. Terima kasih.
+        </pre>
+
+        <div class="actions reveal delay-2">
+          <button id="wa-consult-2" class="btn btn-ghost">Konsultasi via WhatsApp</button>
+          <a href="#katalog" class="btn">Lihat Katalog</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> storyline. Semua hak cipta.</p>
+    </div>
+  </footer>
+
+  <!-- Audio background (mulai nonaktif, dikontrol oleh tombol) -->
+  <audio id="bg-music" loop src="assets/music-sample.mp3" preload="none"></audio>
+
+  <!-- Modal sederhana untuk order -->
+  <div id="order-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close" aria-label="Tutup">&times;</button>
+      <h3>Pesan Sekarang</h3>
+      <form id="order-form">
+        <label>Paket
+          <input type="text" id="pkg" name="package" readonly />
+        </label>
+        <label>Kode Desain / Tema
+          <input type="text" id="theme" name="theme" placeholder="Contoh: Elegant-01" required />
+        </label>
+        <label>Nama Pemesan
+          <input type="text" id="cust-name" name="name" placeholder="Nama lengkap" required/>
+        </label>
+        <label>No. WhatsApp Pemesan (opsional)
+          <input type="tel" id="cust-wp" name="phone" placeholder="+62..." />
+        </label>
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-primary">Kirim ke WhatsApp Admin</button>
+          <button type="button" class="btn btn-muted" id="modal-cancel">Batal</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
