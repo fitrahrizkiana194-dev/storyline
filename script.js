@@ -106,7 +106,7 @@ Nama Pemesan: ${name}
     if (custPhone) msg += `No. WA Pemesan: ${custPhone}\n`;
     msg += `Mohon informasi langkah selanjutnya untuk pengiriman data dan pembayaran. Terima kasih.`;
     const encoded = encodeURIComponent(msg);
-    window.open(`https://wa.me/${ADMIN_WA_NUMBER}?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/${0895701087915}?text=${encoded}`, '_blank');
     closeModal();
   });
 }
